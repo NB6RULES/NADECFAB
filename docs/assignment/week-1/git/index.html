@@ -30,7 +30,7 @@ https://github.com/alex-shpak/hugo-book
 <link rel="icon" href="/NADECFAB/favicon.png" >
 <link rel="manifest" href="/NADECFAB/manifest.json">
 <link rel="canonical" href="https://nb6rules.github.io/NADECFAB/docs/assignment/week-1/git/">
-<link rel="stylesheet" href="/NADECFAB/book.min.6970156cec683193d93c9c4edaf0d56574e4361df2e0c1be4f697ae81c3ba55f.css" integrity="sha256-aXAVbOxoMZPZPJxO2vDVZXTkNh3y4MG&#43;T2l66Bw7pV8=" crossorigin="anonymous">
+<link rel="stylesheet" href="/NADECFAB/book.min.61388710501982f259ceaa92e0d4d39b381b7ca7b0af1331da10852e33613a01.css" integrity="sha256-YTiHEFAZgvJZzqqS4NTTmzgbfKewrxMx2hCFLjNhOgE=" crossorigin="anonymous">
 
 
   <script defer src="/NADECFAB/fuse.min.js"></script>
@@ -54,6 +54,67 @@ https://github.com/alex-shpak/hugo-book
   <a class="flex align-center" href="/NADECFAB/"><span>Nadec FAB Academy Portfolio</span>
   </a>
 </h2>
+
+<div style="display: flex; justify-content: flex-end; padding: 8px 16px;">
+  <button id="theme-toggle" style="background: none; border: none; cursor: pointer; padding: 4px 8px; display: flex; align-items: center; justify-content: center; color: currentColor; width: 32px; height: 32px; border-radius: 4px; transition: background-color 0.2s;" aria-label="Toggle dark mode" title="Toggle dark mode">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </button>
+</div>
+
+<script>
+(function() {
+  const htmlElement = document.documentElement;
+  const themeToggle = document.getElementById('theme-toggle');
+  
+  function getCurrentTheme() {
+    const stored = localStorage.getItem('book-theme');
+    if (stored) return stored;
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+  
+  function setTheme(theme) {
+    htmlElement.style.colorScheme = theme;
+    if (theme === 'dark') {
+      htmlElement.classList.remove('light');
+      htmlElement.classList.add('dark');
+    } else {
+      htmlElement.classList.remove('dark');
+      htmlElement.classList.add('light');
+    }
+    localStorage.setItem('book-theme', theme);
+  }
+  
+  const currentTheme = getCurrentTheme();
+  setTheme(currentTheme);
+  
+  if (themeToggle) {
+    themeToggle.addEventListener('click', function(e) {
+      e.preventDefault();
+      const theme = getCurrentTheme();
+      const newTheme = theme === 'dark' ? 'light' : 'dark';
+      setTheme(newTheme);
+    });
+    
+    themeToggle.addEventListener('mouseenter', function() {
+      this.style.backgroundColor = 'rgba(0,0,0,0.05)';
+    });
+    
+    themeToggle.addEventListener('mouseleave', function() {
+      this.style.backgroundColor = 'transparent';
+    });
+  }
+})();
+</script>
 
 
 <div class="book-search hidden">
@@ -88,8 +149,13 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/NADECFAB/docs/assignment/" class="">
-      Assignment</a>
+    
+    <input type="checkbox" id="section-8a69999ef6a5550f710d1ed2d0e87b81" class="toggle" checked />
+    <label for="section-8a69999ef6a5550f710d1ed2d0e87b81" class="flex">
+      <a href="/NADECFAB/docs/assignment/" class="">
+        Assignment</a>
+      <img src="/NADECFAB/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
   
 
           
@@ -102,8 +168,13 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/NADECFAB/docs/assignment/week-1/" class="">
-      Week 1</a>
+    
+    <input type="checkbox" id="section-3d446412120fa464944d3ff7f3f2684c" class="toggle" checked />
+    <label for="section-3d446412120fa464944d3ff7f3f2684c" class="flex">
+      <a href="/NADECFAB/docs/assignment/week-1/" class="">
+        Week 1</a>
+      <img src="/NADECFAB/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
   
 
           
@@ -116,8 +187,13 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/NADECFAB/docs/assignment/week-1/getting_started_with_documentation/" class="">
-      Getting Started With Documentation</a>
+    
+    <input type="checkbox" id="section-75787cf59689ba5b938a424afa72b054" class="toggle"  />
+    <label for="section-75787cf59689ba5b938a424afa72b054" class="flex">
+      <a href="/NADECFAB/docs/assignment/week-1/getting_started_with_documentation/" class="">
+        Getting Started With Documentation</a>
+      <img src="/NADECFAB/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
   
 
           
@@ -137,8 +213,13 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/NADECFAB/docs/assignment/week-1/git/" class="active">
-      Git</a>
+    
+    <input type="checkbox" id="section-c5164ba94be4ad20b91a731d90c340ad" class="toggle" checked />
+    <label for="section-c5164ba94be4ad20b91a731d90c340ad" class="flex">
+      <a href="/NADECFAB/docs/assignment/week-1/git/" class="active">
+        Git</a>
+      <img src="/NADECFAB/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
   
 
           
@@ -174,6 +255,7 @@ https://github.com/alex-shpak/hugo-book
       
     
   </ul>
+
 
 
 
