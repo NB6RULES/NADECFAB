@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Git on Nadec FAB Academy Portfolio</title>
-    <link>https://nadecfab.example.org/docs/assignment/week-1/git/</link>
+    <link>https://nb6rules.github.io/NADECFAB/docs/assignment/week-1/git/</link>
     <description>Recent content in Git on Nadec FAB Academy Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 22 Jan 2026 21:13:54 +0530</lastBuildDate>
-    <atom:link href="https://nadecfab.example.org/docs/assignment/week-1/git/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nb6rules.github.io/NADECFAB/docs/assignment/week-1/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Installation</title>
-      <link>https://nadecfab.example.org/docs/assignment/week-1/git/installation/</link>
+      <link>https://nb6rules.github.io/NADECFAB/docs/assignment/week-1/git/installation/</link>
       <pubDate>Thu, 22 Jan 2026 21:13:54 +0530</pubDate>
-      <guid>https://nadecfab.example.org/docs/assignment/week-1/git/installation/</guid>
+      <guid>https://nb6rules.github.io/NADECFAB/docs/assignment/week-1/git/installation/</guid>
       <description>&lt;p&gt;jnubnh&lt;/p&gt;</description>
     </item>
   </channel>
