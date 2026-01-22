@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Git on Nadec FAB Academy Portfolio</title>
+    <title>Git Tutorial on Nadec FAB Academy Portfolio</title>
     <link>https://nb6rules.github.io/NADECFAB/docs/assignment/week-1/git/</link>
-    <description>Recent content in Git on Nadec FAB Academy Portfolio</description>
+    <description>Recent content in Git Tutorial on Nadec FAB Academy Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 22 Jan 2026 21:13:54 +0530</lastBuildDate>
@@ -13,7 +13,7 @@
       <link>https://nb6rules.github.io/NADECFAB/docs/assignment/week-1/git/installation/</link>
       <pubDate>Thu, 22 Jan 2026 21:13:54 +0530</pubDate>
       <guid>https://nb6rules.github.io/NADECFAB/docs/assignment/week-1/git/installation/</guid>
-      <description>&lt;p&gt;jnubnh&lt;/p&gt;</description>
+      <description>&lt;p&gt;Git installation steps and setup guide.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
