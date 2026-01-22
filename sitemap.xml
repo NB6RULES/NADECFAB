@@ -2,30 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/docs/assignment/week-1/getting_started_with_documentation/</loc>
+    <loc>https://nadecfab.example.org/docs/assignment/week-1/getting_started_with_documentation/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/assignment/week-1/getting_started_with_documentation/hugo/</loc>
+    <loc>https://nadecfab.example.org/docs/assignment/week-1/getting_started_with_documentation/hugo/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/</loc>
+    <loc>https://nadecfab.example.org/docs/</loc>
     <lastmod>2026-01-22T21:13:54+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/assignment/week-1/git/installation/</loc>
+    <loc>https://nadecfab.example.org/docs/assignment/week-1/git/installation/</loc>
     <lastmod>2026-01-22T21:13:54+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/assignment/</loc>
+    <loc>https://nadecfab.example.org/docs/assignment/</loc>
     <lastmod>2026-01-22T21:00:00+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://nadecfab.example.org/</loc>
     <lastmod>2026-01-22T21:00:00+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/assignment/week-1/git/</loc>
+    <loc>https://nadecfab.example.org/docs/assignment/week-1/git/</loc>
     <lastmod>2026-01-22T21:00:00+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/assignment/week-1/</loc>
+    <loc>https://nadecfab.example.org/docs/assignment/week-1/</loc>
     <lastmod>2026-01-22T21:00:00+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://nadecfab.example.org/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://nadecfab.example.org/tags/</loc>
   </url>
 </urlset>
